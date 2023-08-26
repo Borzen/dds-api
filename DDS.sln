@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDS.API", "Applications\DDS.API\DDS.API.csproj", "{5E2049A9-9513-4A9C-9359-51E0314E9CCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{9B93A9B2-F240-4328-8B79-91C430E0F6EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{42987CD0-9A56-4937-8D93-C985F073B831}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDS.API.Core", "DataAccess\DDS.API.Core\DDS.API.Core.csproj", "{9C906220-4765-41AF-94B9-C160BAF46C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDS.API.CommandHandlers", "Applications\DDS.API.CommandHandlers\DDS.API.CommandHandlers.csproj", "{24C0CB8A-38AC-47E5-9591-D6AB9579E46E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDS.API.QueryHandlers", "DDS.API.QueryHandlers\DDS.API.QueryHandlers.csproj", "{2020702B-A0B6-4110-B58D-7890EAF11980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDS.API.APIClient", "DDS.API.APIClient\DDS.API.APIClient.csproj", "{A2738C4D-B6CE-491B-ACC1-E7E5E7761E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDS.API.Infrastructure", "DDS.API.Infrastructure\DDS.API.Infrastructure.csproj", "{66B409B7-B6B6-4665-A803-859A98918B1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E2049A9-9513-4A9C-9359-51E0314E9CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2049A9-9513-4A9C-9359-51E0314E9CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2049A9-9513-4A9C-9359-51E0314E9CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2049A9-9513-4A9C-9359-51E0314E9CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C906220-4765-41AF-94B9-C160BAF46C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C906220-4765-41AF-94B9-C160BAF46C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C906220-4765-41AF-94B9-C160BAF46C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C906220-4765-41AF-94B9-C160BAF46C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C0CB8A-38AC-47E5-9591-D6AB9579E46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C0CB8A-38AC-47E5-9591-D6AB9579E46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C0CB8A-38AC-47E5-9591-D6AB9579E46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C0CB8A-38AC-47E5-9591-D6AB9579E46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2020702B-A0B6-4110-B58D-7890EAF11980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2020702B-A0B6-4110-B58D-7890EAF11980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2020702B-A0B6-4110-B58D-7890EAF11980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2020702B-A0B6-4110-B58D-7890EAF11980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2738C4D-B6CE-491B-ACC1-E7E5E7761E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2738C4D-B6CE-491B-ACC1-E7E5E7761E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2738C4D-B6CE-491B-ACC1-E7E5E7761E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2738C4D-B6CE-491B-ACC1-E7E5E7761E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B409B7-B6B6-4665-A803-859A98918B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B409B7-B6B6-4665-A803-859A98918B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B409B7-B6B6-4665-A803-859A98918B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B409B7-B6B6-4665-A803-859A98918B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E2049A9-9513-4A9C-9359-51E0314E9CCC} = {42987CD0-9A56-4937-8D93-C985F073B831}
+		{9C906220-4765-41AF-94B9-C160BAF46C8D} = {9B93A9B2-F240-4328-8B79-91C430E0F6EE}
+		{24C0CB8A-38AC-47E5-9591-D6AB9579E46E} = {9B93A9B2-F240-4328-8B79-91C430E0F6EE}
+		{2020702B-A0B6-4110-B58D-7890EAF11980} = {9B93A9B2-F240-4328-8B79-91C430E0F6EE}
+		{A2738C4D-B6CE-491B-ACC1-E7E5E7761E5E} = {9B93A9B2-F240-4328-8B79-91C430E0F6EE}
+		{66B409B7-B6B6-4665-A803-859A98918B1E} = {9B93A9B2-F240-4328-8B79-91C430E0F6EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3D5A3DE-9567-4FBF-81AF-D1A1F992357D}
+	EndGlobalSection
+EndGlobal
